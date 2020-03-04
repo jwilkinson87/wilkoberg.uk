@@ -12,7 +12,7 @@
             <div class="media-right">
               <p class="title is-4">Jonathan Wilkinson</p>
               <p class="subtitle is-6">Software Developer</p>
-              <dl>
+              <dl v-if="false">
                 <dt><i class="fas fa-envelope"></i></dt>
                 <dd>
                   <a href="mailto:me@wilkoberg.uk">me@wilkoberg.uk</a>

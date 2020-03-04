@@ -25,7 +25,7 @@ html {
 
 .sidebar {
   background: $color3;
-  padding: 1rem;
+  padding: 0;
 
   .card {
     background: transparent;
@@ -72,6 +72,12 @@ html {
     padding-bottom: 1rem;
     color: white;
     text-align: center;
+
+    &:hover, &:focus {
+      background-color: darken($color3, 2%);
+      color: darken(#ffffff, 10%);
+      transition: all .3s ease-in;
+    }
 
     &:not(:last-child) {
       border-bottom: 1px solid lighten($color3, 10%);
