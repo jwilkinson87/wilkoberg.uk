@@ -1,6 +1,6 @@
 <template>
   <div id="site-header-navigation" class="navbar-menu site-header-navigation">
-    <div class="navbar-start">
+    <div class="navbar-end">
       <router-link
         v-for="(link, index) in links"
         :to="link.path"

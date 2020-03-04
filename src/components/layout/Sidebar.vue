@@ -1,4 +1,4 @@
-<template functional>
+<template>
   <div class="column sidebar is-one-fifth">
     <div class="sidebar-header">
       <div class="card">
@@ -27,12 +27,19 @@
         </div>
       </div>
     </div>
+    <div class="sidebar-navigation">
+      <main-nav></main-nav>
+    </div>
   </div>
 </template>
 
 <script lang="js">
 
-export default {
+  import MainNav from './MainNav'
 
-}
+  export default {
+      components: {
+        MainNav
+      }
+  }
 </script>

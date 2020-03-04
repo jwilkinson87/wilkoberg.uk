@@ -62,3 +62,19 @@ html {
     }
   }
 }
+
+.sidebar-navigation {
+  margin-top: 1rem;
+
+  .main-navigation > .navigation-item {
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    text-align: center;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid lighten($color3, 10%);
+    }
+  }
+}
