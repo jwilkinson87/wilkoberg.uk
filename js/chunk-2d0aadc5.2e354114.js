@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0aadc5"],{"138e":function(n,c,t){"use strict";t.r(c);var a=function(n,c){var t=c._c;return t("div",[c._v("\n  This is the contact page\n")])},e=[],u=t("2877"),i={},o=Object(u["a"])(i,a,e,!0,null,null,null);c["default"]=o.exports}}]);
-//# sourceMappingURL=chunk-2d0aadc5.2e354114.js.map

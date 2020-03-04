@@ -1,0 +1,8 @@
+{
+    "Template": {
+        "TemplateName": "ContactForm",
+        "SubjectPart": "You've been contacted by {{senderName}}!",
+        "HtmlPart": "<h1>Hello,</h1><p>You've been sent the following information via your website.</p><p><strong>First Name:</strong> {{firstName}}</p><p><strong>Last Name:</strong> {{lastName}}</p><p><strong>Email Address:</strong> {{emailAddress}}</p><p><strong>Message:</strong> {{message}}</p>",
+        "TextPart": "Hello,\r\nYou've been sent the following information via your website.\r\nFirst Name: {{firstName}}\r\nLast Name: {{lastName}}\r\nEmail Address: {{emailAddress}}\r\nMessage: {{message}}."
+    }
+}

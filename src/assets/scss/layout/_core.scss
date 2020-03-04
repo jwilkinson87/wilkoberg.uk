@@ -1,0 +1,64 @@
+#app {
+  min-height: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+#site-content {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  margin-bottom: 0;
+
+  > .columns {
+    flex-grow: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.sidebar {
+  background: $color3;
+  padding: 1rem;
+
+  .card {
+    background: transparent;
+    box-shadow: none;
+    color: white;
+    max-width: 450px;
+
+    .media-right {
+      margin-left: 0;
+    }
+
+    a {
+      color: inherit;
+      font-weight: 600;
+    }
+
+    .title, .subtitle {
+      color: inherit;
+    }
+
+    dl {
+      display: flex;
+      flex-flow: row wrap;
+      font-size: 1rem;
+
+      dt {
+        padding-right: 0.75rem;
+        flex-basis: 10%;
+      }
+
+      dd {
+        flex-basis: 90%;
+      }
+    }
+  }
+}
