@@ -7,8 +7,8 @@
     >
       <div class="columns">
         <sidebar class="column"></sidebar>
-        <div class="column">
-          <router-view class="column" />
+        <div class="column" id="site-content-right">
+          <router-view />
         </div>
       </div>
     </div>
