@@ -6,6 +6,7 @@
     <div class="sidebar-navigation">
       <main-nav></main-nav>
     </div>
+    <social-links></social-links>
   </div>
 </template>
 
@@ -13,11 +14,13 @@
 
   import MainNav from './MainNav'
   import SidebarCard from './SidebarCard'
+  import SocialLinks from './SocialLinks'
 
   export default {
       components: {
         MainNav,
-        SidebarCard
+        SidebarCard,
+        SocialLinks
       }
   }
 </script>
