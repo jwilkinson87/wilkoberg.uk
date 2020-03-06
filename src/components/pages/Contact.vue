@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="page-title">
-      <h1 class="title is-h1">Contact</h1>
+      <h1 class="title is-1">Contact</h1>
     </div>
   
     <div class="message">
