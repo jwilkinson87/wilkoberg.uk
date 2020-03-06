@@ -1,6 +1,9 @@
 <template>
   <div>
-    <h1 class="title is-h1">Contact</h1>
+    <div class="page-title">
+      <h1 class="title is-h1">Contact</h1>
+    </div>
+  
     <div class="message">
       <div class="message-body">Want to get in touch? Use the form below.</div>
     </div>
