@@ -10,6 +10,7 @@
         placeholder="Your First Name"
         @input="delayTouch($v.firstName)"
       >
+      <p class="help is-danger" v-if="$v.firstName.$error">Please enter your first name</p>
     </div>
     <div class="field">
       <label class="label" for="contact-form-last-name">Your Last Name</label>
@@ -19,6 +20,7 @@
         type="text"
         class="input"
         placeholder="Your Last Name"
+        @input="delayTouch($v.lastName)"
       >
     </div>
     <div class="field">
