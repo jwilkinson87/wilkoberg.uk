@@ -16,11 +16,20 @@ html {
   flex-grow: 1;
   margin-bottom: 0;
 
+  &-right {
+    padding: 2rem;
+  }
+
   > .columns {
     flex-grow: 1;
     margin-top: 0;
     margin-bottom: 0;
   }
+}
+
+.page-title {
+  border-bottom: 1px solid #CCC;
+  padding-bottom: 10px;
 }
 
 .sidebar {
