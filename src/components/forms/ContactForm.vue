@@ -41,7 +41,7 @@
         placeholder="Your message"
       ></textarea>
     </div>
-    <button class="button is-link" :class="{'is-loading': isSending }" type="submit">Send</button>
+    <button class="button is-link" :class="{'is-loading': isSending }" type="submit" :disabled="true">Send</button>
   </form>
 </template>
 
