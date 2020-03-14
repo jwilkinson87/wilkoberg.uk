@@ -7,9 +7,11 @@
     >
       <div class="columns">
         <sidebar class="column"></sidebar>
-        <div class="column" id="site-content-right">
-          <router-view />
-        </div>
+        <transition name="fade" mode="out-in">
+          <div class="column" id="site-content-right">
+            <router-view />
+          </div>
+        </transition>
       </div>
     </div>
   </div>
