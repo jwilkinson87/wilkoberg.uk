@@ -8,7 +8,9 @@
       <div class="columns">
         <sidebar class="column"></sidebar>
         <div class="column" id="site-content-right">
-          <router-view />
+          <transition name="fade" mode="out-in">
+            <router-view />
+          </transition>
         </div>
       </div>
     </div>
