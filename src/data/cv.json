@@ -1,0 +1,32 @@
+[
+  {
+    "company": "Ctrl Hub",
+    "work_period": "May 2019 - Present",
+    "job_title": "Senior Software Developer",
+    "description": "Implementation of features on Ctrl Hub's operational management SaaS tool using Symfony 4, adopting CQRS and DDD approaches. Worked on features such as a resource management tool with a Gantt representation of projects, as well as refactoring and improving existing features."
+  },
+  {
+      "company": "Tangent",
+      "work_period": "March 2017 - May 2019",
+      "job_title": "PHP Developer",
+      "description": "A mix of backend and frontend development on systems for one of Tangent's biggest clients, the Labour Party. I was involved in the modernisation of their membership platform, from a monolithic legacy PHP application to a microservice driven route, using Symfony and Vue.js. Communication between the microservices was done mainly with RabbitMQ. I picked up basic knowledge of Kubernetes but very good working knowledge of Docker. Additionally, I was also involved on projects that were implemented in either Python or Java.\n\nOn top of re-writing parts of the membership platform, I was mainly responsible for re-vamping the frontend of the monolithic legacy system. I introduced Webpack, Bootstrap, SCSS and eventually some Vue.js components. I succeeded in doing this by using the power of SCSS to extend Bootstrap's classes whilst integrating with the existing CSS (and disguising jQuery UI components to look like Bootstrap ones), which meant very little change to the actual HTML itself.\n\nI also worked on the implementation of Labour's Complaints project, and recently implemented an offline first progressive web application for use on election days. The progressive web application was implemented with React.js and Redux, and made use of PouchDB for data storage in the browser."
+  },
+  {
+      "company": "Opia",
+      "work_period": "April 2015 - March 2017",
+      "job_title": "PHP Developer",
+      "description": "My role involved implementing a number of websites for promotions for blueprint clients. I was responsible for working on ASUS Promotions, Playstation Promozioni (Italian promotion for Sony) and towards the end of my role, HP for Education. The tech stack involved was PHP 5 (and 7) with a custom framework and Vue.js."
+  },
+  {
+      "company": "Bede Gaming",
+      "work_period": "August 2013 - April 2015",
+      "job_title": "PHP Developer",
+      "description": "My role was a backend PHP developer working alongside other developers to implement new features for the in house MVC Framework that powered a large number of Bede's gambling websites (and their clients). My main achievements at the time involved the integration of external client APIs onto the frontend sites (for winners and jackpot feeds, payment providers and for game integration) as well as building new features. I implemented a recent games widget which was written as a jQuery plugin. I also worked on the implementation of AGCC limits for deposit limits as well as administrative features to allow the service team to manage withdrawals and players.\n\nI was also responsible for integrating logging with a Kibana stack that was set up by our sysops team, and I was also responsible for integrating basic event messages with Azure Service Bus."
+  },
+  {
+      "company": "Molekuler",
+      "work_period": "September 2011 - August 2013",
+      "job_title": "PHP Developer",
+      "description": "My main role was a PHP developer. I implemented the in-house ordering and quote management system using a bespoke framework (I knew no better at the time). I also implemented the frontend website using the CakePHP Framework."
+  }
+]

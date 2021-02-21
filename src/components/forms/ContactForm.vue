@@ -145,6 +145,7 @@ export default {
         message: this.message
       }).then(response => {
         this.$emit('contacted', true)
+        this.isSending = false
       })
     },
 
