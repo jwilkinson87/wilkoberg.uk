@@ -6,7 +6,7 @@ module.exports = {
         plugins: process.env.NODE_ENV === 'production' ? [
             new PrerenderSPAPlugin({
                 staticDir: path.join(__dirname, 'dist'),
-                routes: ['/', '/about', '/contact']
+                routes: ['/', '/about', '/contact', '/cv', '/skills']
             })
         ]: []
     }
