@@ -141,3 +141,13 @@ html {
 .fade-leave-active {
   opacity: 0
 }
+
+.field.has-error {
+  label {
+    color: $danger;
+  }
+
+  .input {
+    border-color: $danger;
+  }
+}
