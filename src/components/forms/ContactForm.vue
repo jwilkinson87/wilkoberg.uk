@@ -144,9 +144,7 @@ export default {
         email_address: this.emailAddress,
         message: this.message
       }).then(response => {
-        if (response.data.status === 200) {
-          this.$emit('contacted', true)
-        }
+        this.$emit('contacted', true)
       })
     },
 
