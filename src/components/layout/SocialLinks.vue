@@ -22,6 +22,12 @@ export default {
                     isBrand: true
                 },
                 {
+                    icon: 'github',
+                    url: 'https://github.com/jwilkinson87/',
+                    text: 'GitHub',
+                    isBrand: true
+                },
+                {
                     icon: 'instagram',
                     url: "https://www.instagram.com/wilko_87/",
                     text: 'Instagram',
