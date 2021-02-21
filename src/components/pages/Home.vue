@@ -10,7 +10,7 @@
     <h2 class="title is-4">Summary of skills</h2>
     <ul>
       <li>PHP 7+ development with Laravel/Symfony including REST API development</li>
-      <li>4+ years experience with frontend development including SPA applications written in React/Vue.js</li>
+      <li>4+ years experience with frontend development including SPA applications written in React/Vue.js. Extensive experience with both ES6 JavaScript and TypeScript implementation.</li>
       <li>Some experience with C#, Java, and Python</li>
       <li>Experience with dockerising applications ready for deployment</li>
       <li>Limited experience with AWS</li>
