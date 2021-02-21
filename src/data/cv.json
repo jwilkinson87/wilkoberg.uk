@@ -14,7 +14,7 @@
       "job_title": "PHP Developer",
       "description": "A mix of backend and frontend development on systems for one of Tangent's biggest clients, the Labour Party. I was involved in the modernisation of their membership platform, from a monolithic legacy PHP application to a microservice driven route, using Symfony and Vue.js. Communication between the microservices was done mainly with RabbitMQ. I picked up basic knowledge of Kubernetes but very good working knowledge of Docker. Additionally, I was also involved on projects that were implemented in either Python or Java.\n\nOn top of re-writing parts of the membership platform, I was mainly responsible for re-vamping the frontend of the monolithic legacy system. I introduced Webpack, Bootstrap, SCSS and eventually some Vue.js components. I succeeded in doing this by using the power of SCSS to extend Bootstrap's classes whilst integrating with the existing CSS (and disguising jQuery UI components to look like Bootstrap ones), which meant very little change to the actual HTML itself.\n\nI also worked on the implementation of Labour's Complaints project, and recently implemented an offline first progressive web application for use on election days. The progressive web application was implemented with React.js and Redux, and made use of PouchDB for data storage in the browser.",
       "skills": [
-          "Kubernetes", "Docker", "Symfony", "Python", "Vue.js", "PHP 7"
+          "Kubernetes", "Docker", "Symfony", "Python", "Vue.js", "PHP 7", "React"
       ]
   },
   {
