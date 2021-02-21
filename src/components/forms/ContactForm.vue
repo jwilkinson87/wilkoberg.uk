@@ -116,6 +116,7 @@ import DelayValidation from "./../mixins/DelayValidation";
 import { validationMixin } from "vuelidate";
 import { required, email } from "vuelidate/lib/validators";
 import VueRecaptcha from "vue-recaptcha";
+import axios from 'axios';
 
 export default {
   mixins: [DelayValidation, validationMixin],
@@ -136,6 +137,17 @@ export default {
   methods: {
     handleSubmit() {
       this.isSending = true;
+
+      axios.post('https://7s5xt2o7j7.execute-api.eu-west-2.amazonaws.com/contact-me', {
+        first_name: this.firstName,
+        last_name: this.lastName,
+        email_address: this.emailAddress,
+        message: this.message
+      }).then(response => {
+        if (response.data.status === 200) {
+          this.$emit('contacted', true)
+        }
+      })
     },
 
     onVerify(args) {
