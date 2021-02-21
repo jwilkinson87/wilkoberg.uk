@@ -19,6 +19,7 @@
     "sass": "^1.17.3",
     "sass-loader": "^7.1.0",
     "vue": "^2.6.6",
+    "vue-recaptcha": "^1.3.0",
     "vue-router": "^3.0.2",
     "vuelidate": "^0.7.4"
   },
