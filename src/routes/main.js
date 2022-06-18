@@ -20,11 +20,6 @@ const routes = [
     name: 'pages.skills',
     component: Skills
   },
-  {
-    path: "/contact",
-    name: 'pages.contact',
-    component: Contact
-  }
 ]
 
 const router = new VueRouter({ routes, mode: 'history' })
