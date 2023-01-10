@@ -19,7 +19,6 @@
   <section class="summary hobbies-summary content">
     <h2 class="title is-4">Hobbies</h2>
     <ul>
-      <li>Keeping fit at the gym</li>
       <li>Playing piano</li>
       <li>Photography (particularly Astrophotography and landscape photography)</li>
     </ul>
